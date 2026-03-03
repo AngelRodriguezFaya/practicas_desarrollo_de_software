@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx} 			% Para insertar imagenes
+\usepackage{indentfirst} 	% Para sangrar párrafos después de secciones
+\setlength{\parindent}{1.5cm} 	% Sangría de 1.5 cm
+\renewcommand{\thesubsection}{\alph{subsection}} 	% Para que las subsecciones empiezen por letras minúsculas.
+\usepackage{minted} 	% Para insertar código 
+\usepackage{float}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{tcolorbox} % Para secciones en destacado
+
+\title{Práctica 1: }
+\author{Javier Ortega Medina}
+\author{Ángel Rodríguez Faya}
+\date{22 de marzo de 2026}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+	
+	% --- PÁGINA 1: LA PORTADA ---
+	\begin{titlepage}
+		\centering
+		\vspace*{1cm}
+		
+		{\huge\bfseries Práctica 1 \par}
+		\vspace{1.5 cm}
+		
+		{\Large Desarrollo de Software. Grupo DS-3. \par}
+		\vspace{0.25cm}
+		{\Large Grado en Ingeniería Informática \par}
+		\vspace{0.25cm}
+		{\Large Curso 2025-2026.\par}
+		\vspace{0.25cm}
+		{\Large ETSIIT. Universidad de Granada.\par}
+		\vspace{1 cm}
+		
+		\noindent % Evita la sangría para que aproveche todo el ancho
+		\begin{minipage}[c]{0.55\textwidth}
+			% La imagen ocupa el 100% del ancho DE ESTA CAJA (no de la hoja)
+			\includegraphics[width=\linewidth]{../memoria/imagenes_necesarias/Logotipo_ETSIIT_Horizontal_color.png}
+		\end{minipage}% <--- Este % es importante para que no añada espacios extra
+		\hfill % Rellena el espacio en medio empujando las cajas a los extremos
+		\begin{minipage}[c]{0.40\textwidth}
+			\raggedleft % Alinea esta imagen a la derecha dentro de su caja
+			\includegraphics[width=\linewidth]{../memoria/imagenes_necesarias/UGR-LOGO-color.png}
+		\end{minipage}
+		
+		\vspace{0.5 cm}
+		
+		{\large\bfseries Autores: \par}
+		{\large Javier Ortega Medina \par}
+		{\large Ángel Rodríguez Faya \par}
+		\vspace{0.5cm}
+		
+		{\large\bfseries Profesor: \par}
+		{\large Alberto Jesús Durán López\par}
+		\vspace{1 cm}
+		
+		{\large\bfseries Fecha de entrega: \par}
+		{\large 22 de marzo de 2026\par}
+		
+	\end{titlepage}
+	% El entorno 'titlepage' hace el salto de página automáticamente al cerrar.
+	
+	% --- PÁGINA 2: EL ÍNDICE ---
+	\tableofcontents
+	\newpage % <--- Fuerza el salto a la página 3
+	
+	% --- RESTO DE PÁGINAS:
+	
+	
+	
+\end{document}

@@ -5,7 +5,13 @@ import Partidas.Partida;
 
 import java.util.Scanner;
 
-public class Main {
+/**
+ * Clase principal que actúa como cliente del patrón Abstract Factory.
+ * Se encarga de la interacción con el usuario, la creación de factorias,
+ * la instanciación de partidas y jugadores, y la gestión de la ejecución
+ * de forma concurrente.
+ */
+public class Cliente {
     public static void main(String[] args) {
         // Creamos las factorias
         FactoriaPartidaYJugador factoriaCasual = new FactoriaCasual();

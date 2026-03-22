@@ -206,7 +206,16 @@
 	
 	\section{Ejercicio 2. Patrón Decorador en Python.}
 		El objetivo de este ejercicio es aplicar el patrón Decorador para que al ejecutar el \texttt{main} se realice un resumen de un texto, luego se traduzca de inglés a español y por último se imprima un análisis de sentimientos (calificado con estrellas). 
-		El \textbf{patrón Decorador} es un patrón estructural. Los \textbf{patrones estructurales} explican cómo ensamblar objetos y clases en estructuras más grandes y complejas, a la vez que se mantiene la flexibilidad y eficiencia de estas estructuras. Este patrón a su vez, nos permite nos permite añadir funcionalidades de forma dinámica a un objeto sin modificar su clase original, envolviendo el objeto base con capas adicionales.
+		El \textbf{patrón Decorador} es un patrón estructural. Los \textbf{patrones estructurales} explican cómo ensamblar objetos y clases en estructuras más grandes y complejas, a la vez que se mantiene la flexibilidad y eficiencia de estas estructuras. 
+		\subsubsection*{¿Cuál es la clave detrás del Patrón Decorador en este ejercicio?}
+
+		Este patrón nos permite encadenar diferentes funcionalidades (resumen, traducción, etc.) envolviendo un objeto base con distintas capas o decoradores.
+
+		En nuestra implementación, el objeto \texttt{BasicLLM} es la base que se envuelve primero con el decorador de traducción y posteriormente con el decorador de análisis de sentimiento.
+
+		De esta forma, cuando invocamos al método \texttt{generate\_summary}, la llamada se propaga desde el decorador más externo hacia el objeto base, ejecutándose en cascada. Primero se genera el resumen original, luego se traduce y finalmente se analiza su sentimiento.
+
+		Cada decorador añade su comportamiento sin modificar el código del objeto base, permitiendo una composición flexible y dinámica de funcionalidades.
 		
 		Vamos a ir viendo cada clase y comentando lo más relevante de ella, además de explicar que función cumple dentro del patrón que se implementa en este ejercicios.
 		

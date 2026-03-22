@@ -1,6 +1,6 @@
 # filtro.rb
 
-class Filtro
+class Filtro # Es una interfaz
 
   # Metodo abstracto
   def ejecutar(credenciales)

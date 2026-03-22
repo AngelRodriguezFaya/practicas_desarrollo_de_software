@@ -1,6 +1,9 @@
 # Ignorar cualquier carpeta llamada 'guion' en cualquier parte del repositorio
 **/guion/
 
+# Ignorar el ejercicio individual
+/Practica_1_Patrones_GoF_y_arquitectonicos/Ejercicio_5_INDIVIDUAL_Sistemas_domoticos/
+
 ### Archivos de Java ###
 *.class
 

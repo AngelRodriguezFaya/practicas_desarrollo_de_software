@@ -1,1 +1,19 @@
 \babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {0}Introducción}{2}{section.0}%
+\contentsline {section}{\numberline {1}Ejercicio 1. Patrón Factoria Abstracta en Java.}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Descripción de elementos del proyecto.}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Diagrama de clases en UML.}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Ejemplo de compilación y ejecución.}{6}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Ejercicio 2. Patrón Decorador en Python.}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Descripción de elementos del proyecto.}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Diagrama de clases en UML.}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ejemplo de ejecución.}{10}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Ejercicio 3. Patrón Estrategia en Python.}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Descripción de elementos del proyecto.}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Diagrama de clases en UML.}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Ejemplos de ejecución.}{14}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Ejercicio 4. Patrón filtros de intercepción en Ruby.}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descripción de elementos del proyecto.}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diagrama de clases en UML.}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Diagrama de secuencia en UML.}{19}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Ejemplos de ejecución.}{20}{subsection.4.4}%

@@ -1,7 +1,7 @@
 # Practicas de Desarrollo de Software
 
 - **Autores:** Ángel Rodríguez Faya y Javier Ortega Medina
-- **Asignatura:** Desarrollo de Sistemas Distribuidos. Grupo DSD-3.
+- **Asignatura:** Desarrollo de Software. Grupo DS-3.
 - **Grado:** Grado en Ingeniería Informática. ETSIIT. Universidad de Granada.
 - **Curso:** 2025-2026.
 - **Profesor:** Alberto Jesús Durán López

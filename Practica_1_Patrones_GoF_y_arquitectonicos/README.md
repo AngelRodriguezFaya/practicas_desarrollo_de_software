@@ -1,0 +1,3 @@
+# Práctica 1. - Patrones Gang of Four (GoF) y arquitectónicos.
+
+El objetivo de esta práctica es familiarizarnos con los patrones de diseño creacionales y estructurales, que hemos visto en el Tema 1 de esta asignatura. Para ello, hemos desarrollado 4 ejercicios los cuáles se podrían considerar como mini-proyectos que hacen uso del paradigma de programación orientada a objetos (POO). Además, están implementados en distintos lenguajes de programación como Java, Python y Ruby.
